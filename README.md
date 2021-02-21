@@ -45,12 +45,5 @@ Ao final para rodar o jogo basta rodar o seguinte comando:
 
 Então o jogo irá iniciar.
 
-Para movimentar o jogador use as setas:
-
-<img src="./assets/teclado.png" alt="keyboard" style="width:100px;"/>
-
-Para sair do jogo:
-
-
-<img src="./assets/esc.png" alt="keyboard" style="width:75px;"/>
+Para movimentar o jogador use as <strong> Setas </strong> do teclado e para sair basta apertar o botão <strong> Esc </strong> do teclado que o jogo será finalizado.
 
