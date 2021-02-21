@@ -37,4 +37,20 @@ Python 3.7+
     pip install -r requirements.txt
 ```
 
+Ao final para rodar o jogo basta rodar o seguinte comando:
+
+``` sh
+    python ./src/Main.py
+```
+
+Então o jogo irá iniciar.
+
+Para movimentar o jogador use as setas:
+
+<img src="./assets/teclado.png" alt="keyboard" style="width:100px;"/>
+
+Para sair do jogo:
+
+
+<img src="./assets/esc.png" alt="keyboard" style="width:75px;"/>
 
