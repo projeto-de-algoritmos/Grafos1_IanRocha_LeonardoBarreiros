@@ -3,17 +3,14 @@
 **Disciplina**: FGA0124 - PROJETO DE ALGORITMOS - TA
 
 ## Alunos
-<hr>
 
 |Matrícula | Aluno |
 | -- | -- |
 | 15/0135521  | Leonardo dos S. S. Barreiros |
 | 16/0124778  | Ian Pereira de Sousa Rocha |
-<br>
 
 ## Sobre
 
-<hr>
 <p align="justify"> Random Maze é um jogo feito em python, utilizando a biblioteca pygame.
 
 <p align="justify"> O jogo é bem simples. O jogador têm de descobrir a saída do labirinto.
