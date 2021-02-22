@@ -1,9 +1,9 @@
 class Player:
     def __init__(self):
-        self.x = 0
+        self.x = 40
         self.y = 0
-        self.playerHeight = 15
-        self.playerWidth = 15
+        self.playerHeight = 35
+        self.playerWidth = 35
         self.movementSpeed = 0.1
         self.imagePlayer = None
 
