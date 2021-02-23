@@ -15,13 +15,11 @@
 
 <p align="justify"> O jogo é bem simples. O jogador têm de descobrir a saída do labirinto.
 
-<p align="justify"> Da parte do código nós fizemos em programação orientada a objeto, onde temos uma classe principal chamada <strong> Main</strong> em que nela é chamada todas as instâncias dos objetos presentes no jogo, compondo seu construtor.
+<p align="justify"> Da parte do código nós fizemos em programação orientada a objeto. O programa principal é a <strong>Main.py</strong>
 
-<p align="justify"> Utilizamos para construir o labirinto um gerador de labirinto com arvore binária, em que para cada celula existente no grid irá verificar a existência de possíveis vizinhos a norte e oeste e assim criando uma conexão, portanto, possibilitando diferentes conexões, formando diferentes labirintos.
+<p align="justify"> Para a construção do labirinto fizemos aplicação de busca em profundidade, em que para cada celula existente no grid irá verificar a existência de possíveis vizinhos e assim criando de forma aleatória as paredes, portanto, possibilitando diferentes labirintos a cada execução.
 
-<p align="justify"> Ao final de tudo, caso o jogador desista de achar o fim do labirinto através do comando de saída, o jogo irá disponibilizar o menor caminho desde o começo do spawn do jogador colorindo-o.
-
-<p align="justify"> O algorítmo utilizado para realizar o menor caminho é a busca em largura apontando o nó inicial e final, que também mudam de posição conforme é gerado um novo labirinto.
+<p align="justify"> Não há um tratamento para quando o jogador vença ou desista de achar a saida. Basta apenas fechar o jogo no botão 'X' que a execução será finalizada.
 
 ## Requisitos
 
@@ -45,5 +43,4 @@ Ao final para rodar o jogo basta rodar o seguinte comando:
 
 Então o jogo irá iniciar.
 
-Para movimentar o jogador use as <strong> Setas </strong> do teclado e para sair basta apertar o botão <strong> Esc </strong> do teclado que o jogo será finalizado.
-
+Para movimentar o jogador use as <strong> Setas </strong> do teclado.
