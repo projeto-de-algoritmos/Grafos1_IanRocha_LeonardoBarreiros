@@ -44,3 +44,7 @@ Ao final para rodar o jogo basta rodar o seguinte comando:
 Então o jogo irá iniciar.
 
 Para movimentar o jogador use as <strong> Setas </strong> do teclado.
+
+## Video
+
+[<img src="https://img.youtube.com/vi/BpYkTEGsNBw/sddefault.jpg">](https://youtu.be/BpYkTEGsNBw)
