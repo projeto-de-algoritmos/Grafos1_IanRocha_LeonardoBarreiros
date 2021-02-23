@@ -22,6 +22,21 @@ class Cell:
 
         self.next_cell = 0
 
+    def draw(self, screen, width):
+        if self.current:
+            pygame.draw.rect(screen, Color.GREEN.value,(self.x, self.y, width, width))
+        elif self.visited:
+            pygame.draw.rect(screen, Color.WHITE.value,(self.x, self.y, width, width))
+
+            if self.walls[0]:
+                pygame.draw.line(screen, Color.BLACK.value,(self.x, self.y), ((self.x + width), self.y), 1)
+            if self.walls[1]:
+                pygame.draw.line(screen, Color.BLACK.value, ((self.x + width), self.y), ((self.x + width),(self.y + width)), 1)
+            if self.walls[2]:
+                pygame.draw.line(screen, Color.BLACK.value, ((self.x + width), (self.y + width)), (self.x, (self.y + width)), 1)
+            if self.walls[3]:
+                pygame.draw.line(screen, Color.BLACK.value,(self.x,(self.y + width)),(self.x,self.y),1)
+
     def checkNeighbors(self, grid, width, rows, cols):
         if int(self.y / width) - 1 >= 0:
             self.top = grid[int(self.y / width) - 1][int(self.x / width)]
