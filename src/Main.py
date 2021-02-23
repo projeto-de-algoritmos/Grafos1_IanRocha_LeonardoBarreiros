@@ -66,9 +66,7 @@ def main():
 
     player = None
     initialized = False
-    current_maze = None
     frame = 0
-    screen_rect = screen.get_rect()
     clock = pygame.time.Clock()
     sprites = pygame.sprite.Group()
 
